@@ -36,17 +36,17 @@ def judge():
         abs_a = abs(21 - point_a)
         abs_b = abs(21 - point_b)
         if abs_a > abs_b:
-            return 'B'
+            return 'カルボナーラ'
         elif abs_a < abs_b:
-            return 'A'
+            return 'トマト'
         else:
             return None
 
 winner = None
 while winner == None:
-    print('Aさんがカードを引きます。Aさんのカードは', end='')
+    print('カルボナーラさんがカードを引きます。カルボナーラさんのカードは', end='')
     point_a += drawCard()
-    print('Bさんがカードを引きます。Bさんのカードは', end='')
+    print('トマトさんがカードを引きます。トマトさんのカードは', end='')
     point_b += drawCard()
     winner = judge()
 
