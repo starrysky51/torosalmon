@@ -1,10 +1,8 @@
-response = ''
+def hello():
+    print('Hoedy!')
+    print('Howdy!!!')
+    print('Hello there.')
 
-import sys
-
-while True:
-    print('終了するにはexitと入力してください。')
-    responde = input()
-    if response == 'exit':
-        sys.exit()
-    print(response + 'と入力されました。')
+hello()
+hello()
+hello()
