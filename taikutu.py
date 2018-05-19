@@ -1,9 +1,3 @@
-print('Hello world!')
-print('What your name?')
-my_name=input()
-print('It is good to meet you, '+ my_name)
-print('The length of your name is:')
-print(len(my_name))
-print('What is your age?')
-my_age=input()
-print('you will be ' + str(int(my_age) +1) + 'in a year.')
+str(29)
+
+print('I am' + str(29) + 'years old')
