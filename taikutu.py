@@ -1,25 +1,13 @@
-import random
+def spam():
+    eggs = 'spam local'
+    print(eggs)
 
-def get_answer(answer_number):
-    if answer_number == 1:
-        return '確かにそうだ'
-    elif answer_number == 2:
-        return '間違いなくそうだ'
-    elif answer_number == 3:
-        return 'はい'
-    elif answer_number == 4:
-        return 'なんとも。もう一度やってみて'
-    elif answer_number == 5:
-        return 'あとでもう一度きいてみて'
-    elif answer_number == 6:
-        return '集中してもう一度きいてみて'
-    elif answer_number == 7:
-        return '私の答えはNOです。'
-    elif answer_number == 8:
-        return '見通しはそれほどよくない'
-    elif answer_number == 9:
-        return 'とても疑わしい'
+def bacon():
+    eggs = 'bacon local'
+    print(eggs)
+    spam()
+    print(eggs)
 
-r = random.randint(1, 9)
-fortune = get_answer(r)
-print(fortune)
+eggs = 'global'
+bacon()
+print(eggs)
