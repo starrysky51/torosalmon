@@ -1,8 +1,6 @@
 name = ''
-password = ''
-if name == '':
-    print('Maryさん、こんにちわ。')
-    if password == '':
-        print('認証しました。')
-    else:
-        print('パスワードが間違っています。')
+
+while name != 'あなたの名前':
+    print('あなたの名前を入力してください')
+    name = input()
+print('どうも！')
