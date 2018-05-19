@@ -1,9 +1,13 @@
 name = ''
+password = ''
 
 while True:
-    print('あなたの名前を入力してください')
+    print('あなたは誰？')
     name = input()
-    if name == 'maria':
+    if name !='Joe':
+        continue
+    print('こんにちはJoe。パスワードは何？（魚のなまえ）')
+    password = input()
+    if password == 'swordfish':
         break
-
-print('どうも！')
+print('認証しました')
