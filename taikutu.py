@@ -1,13 +1,3 @@
-name = ''
-password = ''
-
-while True:
-    print('あなたは誰？')
-    name = input()
-    if name !='Joe':
-        continue
-    print('こんにちはJoe。パスワードは何？（魚のなまえ）')
-    password = input()
-    if password == 'swordfish':
-        break
-print('認証しました')
+print('私の名前は')
+for i in range(5):
+    print('石川五右衛門　(' + str(i) +')')
