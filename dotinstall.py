@@ -1,6 +1,8 @@
-# 変数
+#　文字列
 
-msg = "hello world"
-print(msg)
-msg = "hello again"
-print(msg)
+s = "he\nllo wor\tld"
+html = """<html>
+<body></body>
+</html>"""
+print(s)
+print(html)
